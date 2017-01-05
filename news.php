@@ -7,18 +7,16 @@
 <!DOCTYPE html>
 <html lang="en">
      <head>
-     <title>Contacts</title>
+     <title>News</title>
      <meta charset="utf-8">
      <link rel="icon" href="images/favicon.ico">
      <link rel="shortcut icon" href="images/favicon.ico" />
      <link rel="stylesheet" href="css/styles.css">
-     <link rel="stylesheet" href="css/form.css">
      <script src="js/jquery.js"></script>
      <script src="js/jquery-migrate-1.1.1.js"></script>
      <script src="js/superfish.js"></script>
      <script src="js/jquery.easing.1.3.js"></script>
      <script src="js/sForm.js"></script>
-     <script src="js/forms.js"></script>
      </head>
      <body>
        <div class="main">
@@ -32,8 +30,8 @@
            <nav  class="" >
             <ul class="sf-menu">
                    <li><a href="home.php">Home</a></li>
-                   <li><a href="news.php">News </a></li>
-                   <li class="current"><a href="contacts.php">Contacts</a>
+                   <li class="current"><a href="news.php">News </a></li>
+                   <li class="with_ul"><a href="contacts.php">Contacts</a>
                    <ul>
                          <li><a href="contacts.php"> Contact Us</a></li>
                             <li><a href="logout.php">Logout</a></li>
@@ -50,53 +48,52 @@
 
 <div class="content"><div class="ic"></div>
   <div class="container_12">
-    <div class="grid_6">
-      <h2>Find Us</h2>
-            <div class="map">
-            <figure class="img_inner">
-                          <iframe src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Brooklyn,+New+York,+NY,+United+States&amp;aq=0&amp;sll=37.0625,-95.677068&amp;sspn=61.282355,146.513672&amp;ie=UTF8&amp;hq=&amp;hnear=Brooklyn,+Kings,+New+York&amp;ll=40.649974,-73.950005&amp;spn=0.01628,0.025663&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
-               </figure>
-              <address>
-                            <dl>
-                                <dt><p>The Company Name Inc.<br>
-                                    8901 Marmora Road,<br>
-                                    Glasgow, D04 89GR.</p>
-                                </dt>
-                                <dd><span>Freephone:</span>+1 800 559 6580</dd>
-                                <dd><span>Telephone:</span>+1 800 603 6035</dd>
-                                <dd><span>FAX:</span>+1 800 889 9898</dd>
-                            </dl>
-                         </address>
- 
-          </div>
+    <div class="grid_7">
+      <h2 class="head2">Latest News</h2>
+      <div class="news">
+        <img src="images/page5_img3.jpg" alt="" class="img_inner fleft">
+        <div class="extra_wrapper">
+          <div class="col1">BIMCO: Shipping Industry Faces Choppy Waters</div>
+          <p>The shipping industry has its work cut out going forward in 2017 as the period will see another year of die-hard competition, which now includes tankers, according to international shipping association BIMCO.</p>
+          <p>For eight years, the world has struggled to cope with huge changes and challenges brought around by the crash of the financial market in 2008. The resulting issues have not always been dealt with in the best way, leaving many large economies still in ‘recovery’ mode. </p>
+          <a href="http://worldmaritimenews.com/" class="btn">More</a>
+        </div>
+      </div>
+      <div class="news mb0">
+        <img src="images/page5_img4.jpg" alt="" class="img_inner fleft">
+        <div class="extra_wrapper">
+          <div class="col1">MSI: Container Shipping Industry Sailing in Uncharted Waters</div>
+          <p>The latest phase of mass consolidation continues to see the container shipping industry sailing in uncharted waters and has emphasized the extent to which liner companies are having to restructure their business models in order to survive, according to Maritime Strategies International (MSI).   </p>
+          <p>MSI said that the actions taken by liner companies, both in terms of consolidating service provision and also redelivering chartered tonnage, mean that the worst of the downturn is over for the globally competitive operators. </p>
+          <a href="http://worldmaritimenews.com/" class="btn">More</a>
+        </div>
+      </div>
     </div>
-    <div class="grid_5 prefix_1">
-      <h2>Contact Us</h2>
-      <form id="form">
-      <div class="success_wrapper">
-      <div class="success">Contact form submitted!<br>
-      <strong>We will be in touch soon.</strong> </div></div>
-      <fieldset>
-      <label class="name">
-      <input type="text" value="Name:">
-      <br class="clear">
-      <span class="error error-empty">*This is not a valid name.</span><span class="empty error-empty">*This field is required.</span> </label>
-      <label class="email">
-      <input type="text" value="E-mail:">
-      <br class="clear">
-      <span class="error error-empty">*This is not a valid email address.</span><span class="empty error-empty">*This field is required.</span> </label>
-      <label class="phone">
-      <input type="tel" value="Phone:">
-      <br class="clear">
-      <span class="error error-empty">*This is not a valid phone number.</span><span class="empty error-empty">*This field is required.</span> </label>
-      <label class="message">
-      <textarea>Message:</textarea>
-      <br class="clear">
-      <span class="error">*The message is too short.</span> <span class="empty">*This field is required.</span> </label>
-      <div class="clear"></div>
-      <div class="btns"><a data-type="reset" class="btn">clear</a><a data-type="submit" class="btn">send</a>
-      <div class="clear"></div>
-      </div></fieldset></form>
+    <div class="grid_3 prefix_2">
+      <h2 class="head2">Categories</h2>
+      <ul class="list l1">
+        <li><a href="#">Wind</a></li>
+        <li><a href="#">Ocean</a></li>
+        <li><a href="#">Convoy</a></li>
+        <li><a href="#">Port</a></li>
+        <li><a href="#">Ship</a></li>
+        <li><a href="#">Trading</a></li>
+        <li><a href="#">Navy</a></li>
+        <li><a href="#">Military Exercise</a></li>
+        <li><a href="#">Mloam at neque </a></li>
+      </ul>
+      <h2 class="head2">Archive</h2>
+      <ul class="list">
+        <li><a href="#">September 2017</a></li>
+        <li><a href="#">August 2017</a></li>
+        <li><a href="#">July 2017</a></li>
+        <li><a href="#">June 2017</a></li>
+        <li><a href="#">May 2017</a></li>
+        <li><a href="#">April 2017</a></li>
+        <li><a href="#">March 2017</a></li>
+        <li><a href="#">February 2017</a></li>
+        <li><a href="#">January 2017</a></li>
+      </ul>
     </div>
     <div class="clear"></div>
     <div class="bottom_block">
@@ -109,8 +106,8 @@
         </div>
         <nav><ul>
                    <li><a href="index.html">Home</a></li>
-                   <li><a href="index-4.html">News </a></li>
-                   <li class="current"><a href="index-5.html">Contacts</a></li>
+                   <li class="current"><a href="index-4.html">News </a></li>
+                   <li><a href="index-5.html">Contacts</a></li>
                  </ul></nav>
       </div>
       <div class="grid_6">
